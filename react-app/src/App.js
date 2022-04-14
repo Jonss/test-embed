@@ -19,7 +19,7 @@ function App() {
 
   useEffect(() => {
     handlePing()
-  })
+  }, [])
 
   return (
       <div>
