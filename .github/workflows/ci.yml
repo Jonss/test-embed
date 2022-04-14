@@ -27,6 +27,10 @@ jobs:
         working-directory: react-app
         run: |
           npm install
+
+      - name: Build client
+        working-directory: react-app
+        run: |
           npm build
 
       - name: Build binary
