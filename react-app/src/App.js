@@ -13,8 +13,6 @@ function App() {
       } catch (e) {
           setNotification('Failed to ping');
       }
-
-      setTimeout(() => setNotification(''), 2000);
   }
 
   useEffect(() => {
